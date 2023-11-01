@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario.</title>
+    <link rel="stylesheet" href="../Formulario/form.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+
+<div class="content">
+
+    <h1 class="logo">Contactanos</h1>
+
+    <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+            <h3>Cotiza Con Nosotros.</h3>
+            <form action="">
+                <p>
+                    <label for="fullname">Nombre/Apellidos:</label>
+                    <input type="text" name="fullname" id="fullname" required pattern="[A-Za-z ]+" title="Solo letras y espacios permitidos">
+                </p>
+                <p>
+                    <label for="email">Correo:</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" title="Debe contener 10 dígitos numéricos">
+                </p>
+                <p>
+                    <label for="affair">Vehiculo Interesado:</label>
+                    <input type="text" name="affair" id="affair" required>
+                </p>
+                <p class="block">
+                    <label for="message">Duda O Consulta:</label>
+                    <textarea name="message" id="message" rows="3" required></textarea>
+                </p>
+                <p class="block">
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+            
+        </div>
+        <div class="contact-info">
+            <h4>Más Información.</h4>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Santiago de Chile, Las Condes 9951</li>
+                <li><i class="fas fa-phone"></i> (+569) 111 111 111</li>
+                <li><i class="fas fa-envelope-open-text"></i> deluxecar@automotora.cl</li>
+            </ul>
+            <p>Somos una empresa que ofrece una amplia gama de autos deportivos, desde los diseñados para exhibir belleza y 
+                elegancia hasta aquellos destinados a la competición y el drifting. </p>
+            <p>DeluxeCar.cl</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,87 @@
+
+h2 { color: rgba(255, 255, 255, 0.904);
+    font-size: 40px;
+    background-color: #17171771;}
+    
+
+
+.header {
+    height: 95vh !important;
+    background: url(../Img/auto.jpg) no-repeat center; 
+    background-size: cover;
+    border: solid 1px;
+    
+
+}
+
+
+#ind {
+
+    color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(0, 0, 0, 0.199);
+    margin: 40px;
+    padding: 55px;
+    border-radius: 25px;
+    font-size: 25px;
+    
+}
+
+li{
+    
+color:#ffffff ;
+height: auto;
+
+
+}
+
+
+
+
+/*TABLA*/
+
+h1 { color: rgba(255, 255, 255, 0.904);
+font-size: 40px;
+background-color: #17171771;
+left: 60px;
+
+}
+
+
+.container { 
+    height: 90vh !important;
+background: url(../img/Imagen\ de\ WhatsApp\ 2023-10-06\ a\ las\ 20.09.58_f4cac982.jpg) no-repeat center;
+background-size: cover; }
+
+.container {
+    padding: 20;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(167, 68, 68, 0.164);
+    border: solid 1px rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+table {
+    color: #ffffff;
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.199);;
+    
+}
+
+th {
+    padding: 40px 300px ;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+tbody tr:hover {
+    background: rgb(155, 1, 1);
+}
